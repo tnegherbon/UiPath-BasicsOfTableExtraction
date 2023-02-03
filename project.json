@@ -1,7 +1,7 @@
 {
   "name": "BasicsOfTableExtraction",
   "description": "Test the basics of table extraction.",
-  "main": "Main.xaml",
+  "main": "ACME Extraction.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.17.0-preview]",
     "UiPath.System.Activities": "[22.10.4]",
@@ -11,7 +11,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.12.0.0",
-  "projectVersion": "1.0.1",
+  "projectVersion": "1.0.2",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -45,8 +45,14 @@
   "expressionLanguage": "CSharp",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "994b9dbc-cd5a-4552-833c-adb51ee944e8",
+      "filePath": "Twitter Trending News.xaml",
+      "uniqueId": "a85e8d53-9c92-4dc2-9b86-53eef1ec08e0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ACME Extraction.xaml",
+      "uniqueId": "2f40543a-0801-48d9-94d2-3e5efa871f92",
       "input": [],
       "output": []
     }
